@@ -1,0 +1,19 @@
+-----
+> cd Course
+> git clone https://github.com/yarex/recipe-app-api.git
+> cd recipe-app-api/
+> atom .
+-----
+-----
+> docker build .
+-----
+-----
+> docker-compose build
+-----
+-----
+> docker-compose run app sh -c "django-admin.py startproject app ."
+> git add .
+> git commit -a
+Setup docker and Django project.
+-----
+-----
