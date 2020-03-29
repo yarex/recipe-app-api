@@ -1,0 +1,13 @@
+-----
+https://travis-ci.org
+-----
+-----
+https://pypi.org/project/flake8/
+-----
+-----
+> git add .
+> git commit -a
+Added flake8 and Travis-CI configuration.
+> git push origin
+-----
+-----
