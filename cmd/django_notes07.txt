@@ -1,0 +1,7 @@
+-----
+> docker-compose run app sh -c "python manage.py startapp core"
+
+Remove: app/coretests.py, app/coreviews.py
+Create: app/core/tests/__init__.py
+-----
+-----

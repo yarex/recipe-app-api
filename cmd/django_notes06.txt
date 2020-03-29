@@ -1,0 +1,12 @@
+-----
+> atom -a .
+> docker-compose run app sh -c "python manage.py test"
+-----
+-----
+Settings > Shared drive > Reset credentials
+-----
+-----
+> docker-compose build
+> docker-compose run app sh -c "python manage.py test && flake8"
+-----
+-----
