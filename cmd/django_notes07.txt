@@ -5,3 +5,15 @@ Remove: app/coretests.py, app/coreviews.py
 Create: app/core/tests/__init__.py
 -----
 -----
+> docker-compose run app sh -c "python manage.py makemigrations core"
+> docker-compose run app sh -c "python manage.py test"
+-----
+-----
+> docker-compose run app sh -c "python manage.py test && flake8"
+
+> git add .
+> git commit -a
+Added custom user model.
+> git push origin
+-----
+-----
